@@ -2,21 +2,27 @@
 
 ## GETTING STARTED
 
+CONFIGURE GIT
+
+~/.gitconfig
+
+	$ vi ~/.gitconfig
+	// git configuration file
+
 
 
 INIT GIT DIRECTORY
 
 	$ git init
 
-.gitignore
+
+
+IGNORE FILES & DIRECTORIES
+
+	.gitignore
 
 	$ touch .gitignore
 	// Add whatever you want to ignore
-
-~/.gitconfig
-
-	$ vi ~/.gitconfig
-	// git configuration file
 
 
 
