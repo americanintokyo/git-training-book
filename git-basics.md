@@ -23,6 +23,7 @@ IGNORE FILES & DIRECTORIES
 
 	$ touch .gitignore
 	// Add whatever you want to ignore
+	// this should be added and commited to the repo
 
 
 
@@ -41,6 +42,7 @@ VERBOSE GIT STATUS
 GIT STATUS SUCCINCT
 
 	$ git st
+	// gs -- ~/.bash_profile
 
 
 
@@ -61,6 +63,8 @@ COMMIT TO REPO QUICKLY
 
 	$ git ci -m "one line message"
 	// This does not enter vi
+	// git ci -am "one line message"
+	// add & commit on one line
 
 
 
@@ -68,6 +72,7 @@ LIST COMMITS
 
 	$ git log
 	// Verbose commit listing
+	// gl -- ~/.bash_profile
 
 
 
