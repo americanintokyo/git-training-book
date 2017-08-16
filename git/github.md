@@ -5,10 +5,19 @@
 	Username: americanintokyo
 	Password: c..1
 
+	Username: jfavila-dbe
+	Password: H..1
+
 ## SSH CREDENTIALS
 
 	// key: ~/.ssh/github_rsa.pub
 	// added this key to github settings
+
+## Create GitHub repo
+	// goto Github.com
+	// click New Repo
+	// type in name
+	// done
 
 ## Delete Github Repo
 	// goto Github.com
@@ -20,26 +29,20 @@
 	// type repo name
 	// click next delete
 
-## Create GitHub repo
-	// goto Github.com
-	// click New Repo
-	// type in name
-	// done
-
 ## Add & Remove remote from project repo
-	// git remote -v
-	// git remote remove origin
-	// git remote add origin https://github.com/americanintokyo/myhomepage.git
+	git remote -v
+	git remote remove origin
+	git remote add origin https://github.com/americanintokyo/myhomepage.git
 
-## Push shit to github repo
+## Push stuff to github repo
 	$ git push -u origin master
 	// only has to be done 1st time
 
 ## Create Fork
-	go to git user page
-	find project to fork
-	click fork
-	it creates a private copy in my github acct
+	- go to a git user page
+	- find project to fork
+	- click fork
+	- git creates a private copy in my github acct
 
 ## Clone my fork to Laptop
 
@@ -47,7 +50,7 @@
 	- click clone/download button
 	- copy url
 	- go to command-line 
-	- type: git clone URL
+	- type: git clone URL <new folder name>
 
 ## How to pull changes from upstream
 
@@ -62,24 +65,24 @@
 ## How to create a pull request
 
 	// create exact copy of upstream
-	create a fork of upstream
-	clone fork to laptop
-	add upstream remote to local repo if necessary
-	pull in changes from upstream if necessary
+	- create a fork of upstream
+	- clone fork to laptop
+	- add upstream remote to local repo if necessary
+	- pull in changes from upstream if necessary
 
 	// create new feature
-	create a branch with <good feature name>
-	change to feature branch
-	commit changes
+	- create a branch with a <good feature name>
+	- change to feature branch
+	- commit changes
 
 	// sync with upstream
-	go to master branch
+	- go to master branch
 	git pull upstream master
-	go to feature branch
+	- go to feature branch
 	git rebase master
 
 	// push new feature to my fork
-	go to feature branch
+	- go to feature branch
 	git push origin feature
 
 	// create pull request
